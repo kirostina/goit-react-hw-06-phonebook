@@ -13,3 +13,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Стилізація форми */
+form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #a76b6b;
+  border-radius: 5px;
+  background-color: #b38787;
+  max-width: 250px;
+}
+
+/* Стилізація вводу */
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 80%;
+  color: #ff0000;
+}
+
+/* Стилізація кнопки */
+button {
+  padding: 10px 20px;
+  background-color: #d05151;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Стилізація списку */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 15px;
+}
+
+li {
+  margin: 5px 0;
+  color: #d05151;
+}
+
+/* Стилізація заголовка h1 і h2 */
+h1,
+h2 {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-left: 10px;
+}
+.inp {
+  margin-left: 15px;
+  max-width: 250px;
+}
